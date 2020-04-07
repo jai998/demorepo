@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12929" started-at="2020-04-07T02:21:35Z" finished-at="2020-04-07T02:21:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12929" started-at="2020-04-07T02:21:35Z" finished-at="2020-04-07T02:21:48Z">
+      <class name="TestCases.Sample1Test">
+        <test-method status="PASS" signature="mango()[pri:0, instance:TestCases.Sample1Test@4e04a765]" name="mango" is-config="true" duration-ms="6636" started-at="2020-04-07T07:51:35Z" finished-at="2020-04-07T07:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method status="PASS" signature="orange()[pri:0, instance:TestCases.Sample1Test@4e04a765]" name="orange" is-config="true" duration-ms="6228" started-at="2020-04-07T07:51:42Z" finished-at="2020-04-07T07:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+        <test-method status="PASS" signature="apple()[pri:0, instance:TestCases.Sample1Test@4e04a765]" name="apple" duration-ms="0" started-at="2020-04-07T07:51:48Z" finished-at="2020-04-07T07:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="grapes()[pri:0, instance:TestCases.Sample1Test@4e04a765]" name="grapes" is-config="true" duration-ms="42" started-at="2020-04-07T07:51:48Z" finished-at="2020-04-07T07:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grapes -->
+        <test-method status="PASS" signature="grapes()[pri:0, instance:TestCases.SampleTest@13fee20c]" name="grapes" is-config="true" duration-ms="0" started-at="2020-04-07T07:51:48Z" finished-at="2020-04-07T07:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grapes -->
+        <test-method status="PASS" signature="lussy()[pri:0, instance:TestCases.Sample1Test@4e04a765]" name="lussy" is-config="true" duration-ms="4323" started-at="2020-04-07T07:51:48Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lussy -->
+        <test-method status="PASS" signature="lussy()[pri:0, instance:TestCases.SampleTest@13fee20c]" name="lussy" is-config="true" duration-ms="0" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lussy -->
+      </class> <!-- TestCases.Sample1Test -->
+      <class name="TestCases.SampleTest">
+        <test-method status="PASS" signature="mango()[pri:0, instance:TestCases.SampleTest@13fee20c]" name="mango" is-config="true" duration-ms="12" started-at="2020-04-07T07:51:35Z" finished-at="2020-04-07T07:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method status="PASS" signature="orange()[pri:0, instance:TestCases.SampleTest@13fee20c]" name="orange" is-config="true" duration-ms="0" started-at="2020-04-07T07:51:35Z" finished-at="2020-04-07T07:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+        <test-method status="PASS" signature="apple()[pri:0, instance:TestCases.SampleTest@13fee20c]" name="apple" duration-ms="1" started-at="2020-04-07T07:51:35Z" finished-at="2020-04-07T07:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="carrot()[pri:0, instance:TestCases.SampleTest@13fee20c]" name="carrot" is-config="true" duration-ms="0" started-at="2020-04-07T07:51:35Z" finished-at="2020-04-07T07:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carrot -->
+      </class> <!-- TestCases.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="2" started-at="2020-04-07T02:21:52Z" finished-at="2020-04-07T02:21:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2" started-at="2020-04-07T02:21:52Z" finished-at="2020-04-07T02:21:52Z">
+      <class name="TestCases.Sample3Test">
+        <test-method status="PASS" signature="bangalore()[pri:0, instance:TestCases.Sample3Test@34b7bfc0]" name="bangalore" duration-ms="1" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bangalore -->
+        <test-method status="PASS" signature="chennai()[pri:0, instance:TestCases.Sample3Test@34b7bfc0]" name="chennai" duration-ms="1" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chennai -->
+        <test-method status="PASS" signature="chengalpattu()[pri:0, instance:TestCases.Sample3Test@34b7bfc0]" name="chengalpattu" duration-ms="0" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chengalpattu -->
+      </class> <!-- TestCases.Sample3Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="2" started-at="2020-04-07T02:21:52Z" finished-at="2020-04-07T02:21:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2" started-at="2020-04-07T02:21:52Z" finished-at="2020-04-07T02:21:52Z">
+      <class name="TestCases.Sample2Test">
+        <test-method status="PASS" signature="deva()[pri:0, instance:TestCases.Sample2Test@15975490]" name="deva" duration-ms="0" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deva -->
+        <test-method status="PASS" signature="jai()[pri:0, instance:TestCases.Sample2Test@15975490]" name="jai" duration-ms="0" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jai -->
+      </class> <!-- TestCases.Sample2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="Suite (2)" duration-ms="1" started-at="2020-04-07T02:21:52Z" finished-at="2020-04-07T02:21:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1" started-at="2020-04-07T02:21:52Z" finished-at="2020-04-07T02:21:52Z">
+      <class name="TestCases.Sample3Test">
+        <test-method status="PASS" signature="chennai()[pri:0, instance:TestCases.Sample3Test@36f6e879]" name="chennai" duration-ms="0" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chennai -->
+        <test-method status="PASS" signature="chengalpattu()[pri:0, instance:TestCases.Sample3Test@36f6e879]" name="chengalpattu" duration-ms="0" started-at="2020-04-07T07:51:52Z" finished-at="2020-04-07T07:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chengalpattu -->
+      </class> <!-- TestCases.Sample3Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+</testng-results>
