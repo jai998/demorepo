@@ -46,6 +46,8 @@
              <suiteXmlFile>exclude.xml</suiteXmlFile>
              <suiteXmlFile>include.xml</suiteXmlFile>
               <suiteXmlFile>regular.xml</suiteXmlFile>
+               <suiteXmlFile>grouping.xml</suiteXmlFile>
+              
             
           </suiteXmlFiles>
         </configuration>

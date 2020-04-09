@@ -3,11 +3,8 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCases.Sample3Test">
-        <methods>
-          <include name="che.*"/>
-        </methods>
-      </class> <!-- TestCases.Sample3Test -->
+      <class name="TestCases.SampleTest"/>
+      <class name="TestCases.Sample1Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

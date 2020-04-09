@@ -1,33 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14371" started-at="2020-04-06T08:54:21Z" finished-at="2020-04-06T08:54:35Z">
+  <suite name="Default suite" duration-ms="26385" started-at="2020-04-09T03:03:26Z" finished-at="2020-04-09T03:03:52Z">
     <groups>
+      <group name="regression">
+        <method signature="Sample4Test.inbox()[pri:0, instance:TestCases.Sample4Test@4d3ca6c7]" name="inbox" class="TestCases.Sample4Test"/>
+        <method signature="Sample4Test.mail()[pri:0, instance:TestCases.Sample4Test@4d3ca6c7]" name="mail" class="TestCases.Sample4Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Sample5Test.hangouts()[pri:0, instance:TestCases.Sample5Test@22e5f96e]" name="hangouts" class="TestCases.Sample5Test"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Sample4Test.sentbox()[pri:0, instance:TestCases.Sample4Test@4d3ca6c7]" name="sentbox" class="TestCases.Sample4Test"/>
+        <method signature="Sample5Test.facebook()[pri:0, instance:TestCases.Sample5Test@22e5f96e]" name="facebook" class="TestCases.Sample5Test"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="Default test" duration-ms="14371" started-at="2020-04-06T08:54:21Z" finished-at="2020-04-06T08:54:35Z">
+    <test name="Default test" duration-ms="26385" started-at="2020-04-09T03:03:26Z" finished-at="2020-04-09T03:03:52Z">
+      <class name="TestCases.IhgTest">
+        <test-method status="PASS" signature="methods()[pri:0, instance:TestCases.IhgTest@29a1505c]" name="methods" is-config="true" duration-ms="7519" started-at="2020-04-09T08:33:26Z" finished-at="2020-04-09T08:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methods -->
+        <test-method status="PASS" signature="methods1()[pri:0, instance:TestCases.IhgTest@29a1505c]" name="methods1" duration-ms="7604" started-at="2020-04-09T08:33:33Z" finished-at="2020-04-09T08:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methods1 -->
+      </class> <!-- TestCases.IhgTest -->
+      <class name="TestCases.Sample2Test">
+        <test-method status="PASS" signature="deva()[pri:0, instance:TestCases.Sample2Test@24db6ce]" name="deva" duration-ms="1" started-at="2020-04-09T08:33:41Z" finished-at="2020-04-09T08:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deva -->
+        <test-method status="PASS" signature="jack()[pri:0, instance:TestCases.Sample2Test@24db6ce]" name="jack" duration-ms="2" started-at="2020-04-09T08:33:41Z" finished-at="2020-04-09T08:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jack -->
+        <test-method status="PASS" signature="jai()[pri:0, instance:TestCases.Sample2Test@24db6ce]" name="jai" duration-ms="1" started-at="2020-04-09T08:33:41Z" finished-at="2020-04-09T08:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jai -->
+      </class> <!-- TestCases.Sample2Test -->
       <class name="TestCases.Sample1Test">
-        <test-method status="PASS" signature="mango()[pri:0, instance:TestCases.Sample1Test@1753acfe]" name="mango" is-config="true" duration-ms="6974" started-at="2020-04-06T14:24:21Z" finished-at="2020-04-06T14:24:28Z">
+        <test-method status="PASS" signature="mango()[pri:0, instance:TestCases.Sample1Test@320a8ebf]" name="mango" is-config="true" duration-ms="5349" started-at="2020-04-09T08:33:41Z" finished-at="2020-04-09T08:33:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mango -->
-        <test-method status="PASS" signature="orange()[pri:0, instance:TestCases.Sample1Test@1753acfe]" name="orange" is-config="true" duration-ms="7369" started-at="2020-04-06T14:24:28Z" finished-at="2020-04-06T14:24:35Z">
+        <test-method status="PASS" signature="orange()[pri:0, instance:TestCases.Sample1Test@320a8ebf]" name="orange" is-config="true" duration-ms="5758" started-at="2020-04-09T08:33:46Z" finished-at="2020-04-09T08:33:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orange -->
-        <test-method status="PASS" signature="apple()[pri:0, instance:TestCases.Sample1Test@1753acfe]" name="apple" duration-ms="5" started-at="2020-04-06T14:24:35Z" finished-at="2020-04-06T14:24:35Z">
+        <test-method status="PASS" signature="apple()[pri:0, instance:TestCases.Sample1Test@320a8ebf]" name="apple" duration-ms="2" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apple -->
-        <test-method status="PASS" signature="grapes()[pri:0, instance:TestCases.Sample1Test@1753acfe]" name="grapes" is-config="true" duration-ms="16" started-at="2020-04-06T14:24:35Z" finished-at="2020-04-06T14:24:35Z">
+        <test-method status="PASS" signature="grapes()[pri:0, instance:TestCases.Sample1Test@320a8ebf]" name="grapes" is-config="true" duration-ms="52" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- grapes -->
-        <test-method status="PASS" signature="lussy()[pri:0, instance:TestCases.Sample1Test@1753acfe]" name="lussy" is-config="true" duration-ms="4344" started-at="2020-04-06T14:24:35Z" finished-at="2020-04-06T14:24:40Z">
+        <test-method status="PASS" signature="grapes()[pri:0, instance:TestCases.SampleTest@2ba5aa7a]" name="grapes" is-config="true" duration-ms="0" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grapes -->
+        <test-method status="PASS" signature="lussy()[pri:0, instance:TestCases.Sample1Test@320a8ebf]" name="lussy" is-config="true" duration-ms="4173" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lussy -->
+        <test-method status="PASS" signature="lussy()[pri:0, instance:TestCases.SampleTest@2ba5aa7a]" name="lussy" is-config="true" duration-ms="1" started-at="2020-04-09T08:33:56Z" finished-at="2020-04-09T08:33:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lussy -->
       </class> <!-- TestCases.Sample1Test -->
+      <class name="TestCases.Sample3Test">
+        <test-method status="PASS" signature="bangalore()[pri:0, instance:TestCases.Sample3Test@44b18fe4]" name="bangalore" duration-ms="2" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bangalore -->
+        <test-method status="PASS" signature="chengalpattu()[pri:0, instance:TestCases.Sample3Test@44b18fe4]" name="chengalpattu" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chengalpattu -->
+        <test-method status="PASS" signature="chennai()[pri:0, instance:TestCases.Sample3Test@44b18fe4]" name="chennai" duration-ms="2" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chennai -->
+      </class> <!-- TestCases.Sample3Test -->
+      <class name="TestCases.AttributesTest">
+        <test-method status="PASS" signature="two()[pri:2, instance:TestCases.AttributesTest@67b100fe]" name="two" duration-ms="3" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="three()[pri:3, instance:TestCases.AttributesTest@67b100fe]" name="three" duration-ms="13" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="three()[pri:3, instance:TestCases.AttributesTest@67b100fe]" name="three" duration-ms="13" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="three()[pri:3, instance:TestCases.AttributesTest@67b100fe]" name="three" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="four()[pri:4, instance:TestCases.AttributesTest@67b100fe]" name="four" duration-ms="2" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="one()[pri:1, instance:TestCases.AttributesTest@67b100fe]" name="one" duration-ms="2" started-at="2020-04-09T08:33:52Z" depends-on-methods="TestCases.AttributesTest.three" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+      </class> <!-- TestCases.AttributesTest -->
+      <class name="TestCases.Sample4Test">
+        <test-method status="PASS" signature="inbox()[pri:0, instance:TestCases.Sample4Test@4d3ca6c7]" name="inbox" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbox -->
+        <test-method status="PASS" signature="mail()[pri:0, instance:TestCases.Sample4Test@4d3ca6c7]" name="mail" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+        <test-method status="PASS" signature="sentbox()[pri:0, instance:TestCases.Sample4Test@4d3ca6c7]" name="sentbox" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sentbox -->
+      </class> <!-- TestCases.Sample4Test -->
+      <class name="TestCases.SampleTest">
+        <test-method status="PASS" signature="mango()[pri:0, instance:TestCases.SampleTest@2ba5aa7a]" name="mango" is-config="true" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method status="PASS" signature="orange()[pri:0, instance:TestCases.SampleTest@2ba5aa7a]" name="orange" is-config="true" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+        <test-method status="PASS" signature="apple()[pri:0, instance:TestCases.SampleTest@2ba5aa7a]" name="apple" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="carrot()[pri:0, instance:TestCases.SampleTest@2ba5aa7a]" name="carrot" is-config="true" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carrot -->
+      </class> <!-- TestCases.SampleTest -->
+      <class name="TestCases.Sample5Test">
+        <test-method status="PASS" signature="facebook()[pri:0, instance:TestCases.Sample5Test@22e5f96e]" name="facebook" duration-ms="2" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method status="PASS" signature="hangouts()[pri:0, instance:TestCases.Sample5Test@22e5f96e]" name="hangouts" duration-ms="1" started-at="2020-04-09T08:33:52Z" finished-at="2020-04-09T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hangouts -->
+      </class> <!-- TestCases.Sample5Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
